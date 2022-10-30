@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdeedc;
+}
+
+li.nav-item {
+  list-style-type: none;
+  display: inline;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+header.sticky-top {
+  background-color: #fdeedc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-shadow {
+  box-shadow: 0 4px 8px 0 rgba(167, 187, 199, 0.6);
+}
+
+.nav-title {
+  font-family: Courgette;
+  color: #b1afff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  width: 100%;
+  padding: 8px;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: Lobster;
+  float: left;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.card-box {
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(167, 187, 199, 0.6);
+}
+
+.container.card-box {
+  width: 50%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.card-group {
+  display: flex;
+}
+
+.button-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0 8px 8px;
+}
+
+.button {
+  font-size: 32px;
+  margin: 8px;
+  border-radius: 8px;
+  background-color: #fdeedc;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffd8a9;
+}
+
+.check {
+  color: #198754;
+}
+
+.trash {
+  color: #dc3545;
+}
+
+.reset {
+  color: #ffc107;
+}
+
+.card {
+  width: 100%;
+  border: 2px groove rgba(227, 139, 41, 0.4);
+  border-radius: 5px;
+  padding: 4px 16px 16px 16px;
+  margin: 16px 0 8px 8px;
+}
+
+.card .card-title {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-box-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-box-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px 8px 0 0;
+  background-color: #ffd8a9;
+}
+
+.card-body {
+  display: flex;
+
+  /* Properti lainnya */
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 16px;
+}
+
+.card-body > p {
+  margin: 0 0 4px 0;
+}
+
+.card-item .card-text {
+  display: block;
+  text-align: center;
+}
+
+.card-title > h1 {
+  margin: 0;
+}
+
+.completed .card-title::after {
+  border-bottom: 3px solid #198754;
+}
+
+.card-title::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #e38b29;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 4px;
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  width: 90%;
+  display: block;
+  margin: 8px auto;
+}
+
+.mb {
+  margin-bottom: 4px;
+}
+
+.form-input {
+  width: 90%;
+  display: block;
+  margin: 8px auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.form-submit {
+  display: block;
+  background-color: #0d6efd;
+  color: white;
+  padding: 8px 32px;
+  margin: 8px auto;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+.checkbox-text {
+  font-size: 10px;
+}
+
+.mb.checkbox {
+  width: 90%;
+  display: block;
+  margin: 8px auto;
+}
